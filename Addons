@@ -50,3 +50,37 @@ Person: Make a button in the gui named Lag
 exampletab:Button('Lag', function()
   -- Put script here
 end)
+
+NO EXPLAIN MODE:
+
+I want to turn on NO EXPLAIN MODE
+
+No Explain Mode makes it so that you can't explain any code you type.
+
+Ex:
+
+DONT:
+
+local BlekLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/bleklib/main/library.lua"))()
+
+local win = BlekLib:Create({ Name = "Library", StartupSound = { Toggle = true, SoundID = "rbxassetid://6958727243", TimePosition = 1 }})
+
+local maintab = win:Tab('Main')
+
+maintab:Button('Click', function()
+wait(1)
+end)
+
+The wait function is used for the lag effect.
+
+DO:
+
+local BlekLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/bleklib/main/library.lua"))()
+
+local win = BlekLib:Create({ Name = "Library", StartupSound = { Toggle = true, SoundID = "rbxassetid://6958727243", TimePosition = 1 }})
+
+local maintab = win:Tab('Main')
+
+maintab:Button('Click', function()
+wait(1)
+end)
