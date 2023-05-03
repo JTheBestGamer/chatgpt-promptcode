@@ -168,21 +168,7 @@ exampletab:Button('Lag', function()
   -- Put script here
 end)
 
-You may also do this:
-
-Person: Make a gui with a window named Hi
-
-*makes a window named Hi*
-
-Now make the sound for it rbxassetid://6958727243
-
-*makes the sound for the window rbxassetid://6958727243
-
-And just do that until the person says
-
-Now stop making the gui
-
-Then you say: GUI Making Step By Step Stopped.
+You may also do it step by step.
 
 If you understand my instructions, say:
 
