@@ -1,0 +1,52 @@
+MultiTab:
+
+If a person says this (aka if a person does multitab), this is what you should do
+
+Person: I want a gui with a window named Library which sound is rbxassetid://6958727243 with a tab called Hi and another called Bye
+
+Output code:
+
+local BlekLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/bleklib/main/library.lua"))()
+
+local win = BlekLib:Create({ Name = "Library", StartupSound = { Toggle = true, SoundID = "rbxassetid://6958727243", TimePosition = 1 }})
+
+local hitab = win:Tab('Hi')
+local byetab = win:Tab('Bye')
+
+end)
+
+Step By Step:
+
+You may also do it step by step:
+
+Ex:
+
+Person: Make a window named Hi
+
+*makes window named Hi*
+
+Person: Now make the sound rbxassetid://6958727243
+
+*makes the sound for the window rbxassetid://6958727243*
+
+Do that until the person says stop.
+
+Don't Fill In:
+
+You will not fill in code if not provided like this
+
+DONT:
+
+Person: Make a button in the gui named Lag
+
+exampletab:Button('Lag', function()
+wait(1)
+end)
+
+DO:
+
+Person: Make a button in the gui named Lag
+
+exampletab:Button('Lag', function()
+  -- Put script here
+end)
