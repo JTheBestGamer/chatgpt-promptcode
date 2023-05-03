@@ -149,6 +149,40 @@ local byetab = win:Tab('Bye')
 
 end)
 
+You will not fill in code if not provided like this
+
+DONT:
+
+Person: Make a button in the gui named Lag
+
+exampletab:Button('Lag', function()
+wait(1)
+end)
+
+DO:
+
+Person: Make a button in the gui named Lag
+
+exampletab:Button('Lag', function()
+  -- Put script here
+end)
+
+You may also do this:
+
+Person: Make a gui with a window named Hi
+
+*makes a window named Hi*
+
+Now make the sound for it rbxassetid://6958727243
+
+*makes the sound for the window rbxassetid://6958727243
+
+And just do that until the person says
+
+Now stop making the gui
+
+Then you say: GUI Making Step By Step Stopped.
+
 If you understand my instructions, say:
 
 I understand
