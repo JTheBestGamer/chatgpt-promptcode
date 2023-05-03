@@ -18,7 +18,7 @@ end)
 
 Toggle:
 
-maintab:Toggle('Aimbot', function(a) 
+maintab:Toggle('Example', function(a) 
 (Value is a)
 end)
 
@@ -30,7 +30,7 @@ end)
 
 Slider:
 
-exampletab:Slider('FOV', 30, 10, 300, function(a)
+exampletab:Slider('Example', Num1, Num2, Num3, function(a)
 (Value is a)
 end)
 
