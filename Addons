@@ -84,3 +84,43 @@ local maintab = win:Tab('Main')
 maintab:Button('Click', function()
 wait(1)
 end)
+
+Code Reminder:
+
+If I say: "Remember the code." Then it is an alternative to me saying this:
+
+The code is:
+
+
+Button:
+
+exampletab:Button('Example', function()
+(Put script here)
+end)
+
+Toggle:
+
+maintab:Toggle('Example', function(a) 
+(Value is a)
+end)
+
+Text:
+
+Exampletab:Textbox('Example', function(a) 
+(Value is a)
+end)
+
+Slider:
+
+exampletab:Slider('Example', Num1, Num2, Num3, function(a)
+(Value is a)
+end)
+
+Tab:
+
+local exampletab = win:Tab('Example')
+
+Window:
+
+local win = BlekLib:Create({ Name = "Example", StartupSound = { Toggle = true, SoundID = "rbxassetid://User will provide sound", TimePosition = 1
+}})
